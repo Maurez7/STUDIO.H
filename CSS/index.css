@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Titulos_1;
+  src: url(Fuentes/Franchise.ttf);
+}
+body {
+  background-color: black;
+}
+body header {
+  background-color: black;
+}
+body header h1 {
+  color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+body header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body header nav ul li {
+  list-style: none;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body aside {
+  background-color: black;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+body aside ul a {
+  text-decoration: none;
+}
+body aside ul a img {
+  width: 20px;
+  height: 20px;
+}
+body aside ul a b {
+  color: white;
+}
+body aside ul a .Unsa_logo {
+  background-color: white;
+}
+body aside ul li {
+  list-style: none;
+}
+body aside ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+body aside ul .Python_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .Java_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .Html_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .CSS_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .SASS_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .GitHub_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .MySQL_logo img {
+  height: 20px;
+  width: 20px;
+}
+body aside ul .PHP_logo img {
+  height: 10px;
+  width: 20px;
+}
+body aside ul .JS_logo img {
+  height: 15px;
+  width: 15px;
+}
+body main {
+  float: left;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/originals/d7/e5/e8/d7e5e84fca3d94d4c41a93a2ba345637.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body main article section {
+  color: white;
+}
+body main article section h1 {
+  padding-top: 15px;
+  background-image: url(Fondos/Etiqueta_1.png);
+  background-size: cover;
+}
+body main article section h3 {
+  padding-top: 15px;
+}
+body main article section p {
+  padding-top: 15px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+body main article section h4 {
+  padding-top: 15px;
+}
+body main article section h5 {
+  padding-top: 15px;
+}
+body main article .carrusel {
+  padding-top: 15px;
+  margin: 0 auto;
+}
+body main article .carrusel .carousel-item img {
+  float: left;
+}
+body main article .carrusel .carousel-item ul {
+  float: left;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  grid-template-rows: 120px 120px;
+  gap: 15px;
+  list-style: none;
+}
+body main article .carrusel .carousel-item ul li {
+  background-image: url(https://ep01.epimg.net/elpais/imagenes/2021/12/10/album/1639143803_433213_1639745607_noticia_normal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=index.css.map */

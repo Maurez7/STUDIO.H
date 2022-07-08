@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Titulos_1;
+    src: url(Fuentes/Franchise.ttf);
+}
+body{
+    background-color: black;
+    header{
+        background-color: black;
+        h1{
+            color: cadetblue;
+            display: flex;
+            justify-content: center;
+        }
+        nav{
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    aside{
+        background-color: black;
+        float: left;
+        width: 20%;
+        height: 100%;
+        ul{
+            a{
+                text-decoration: none;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                b{
+                    color: white;
+                }
+                .Unsa_logo{
+                    background-color: white;
+                }
+            }
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+            .Python_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .Java_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .Html_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .CSS_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .SASS_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .GitHub_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .MySQL_logo{
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+            .PHP_logo{
+                img{
+                    height: 10px;
+                    width: 20px;
+                }
+            }
+            .JS_logo{
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+        }
+    }
+    main{
+        float: left;
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        background-image: url(https://i.pinimg.com/originals/d7/e5/e8/d7e5e84fca3d94d4c41a93a2ba345637.jpg);
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+        article{
+            section{
+                color: white;
+                h1{
+                    padding-top: 15px;
+                    background-image: url(Fondos/Etiqueta_1.png);
+                    background-size: cover;
+                }
+                h3{
+                    padding-top: 15px;
+                }
+                p{
+                    padding-top: 15px;
+                    width: 50%;
+                    margin: 0 auto;
+                    text-align: justify;
+                }
+                h4{
+                    padding-top: 15px;
+                }
+                h5{
+                    padding-top: 15px;
+                }
+            }
+            .carrusel {
+                padding-top: 15px;
+                margin: 0 auto;
+                .carousel-item{
+                    img{
+                        float: left;
+                    }
+                    ul{
+                        float: left;
+                        display: grid;
+                        grid-template-columns: 120px 120px;
+                        grid-template-rows: 120px 120px;
+                        gap: 15px;
+                        list-style: none;
+                        li{
+                            background-image: url(https://ep01.epimg.net/elpais/imagenes/2021/12/10/album/1639143803_433213_1639745607_noticia_normal.jpg);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
